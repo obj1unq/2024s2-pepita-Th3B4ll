@@ -14,6 +14,22 @@ object pepita {
 	}
 }
 
+object pepon {
+	var energia = 30
+
+	method energia() {
+		return energia
+	}
+  
+	method comer(comida) {
+		energia = energia + (comida.energia() / 2)
+	}
+
+	method volar(km) {
+		energia = energia - 2 * km
+	  
+	}
+}
 object alpiste {
 	method energiaQueAporta() {
 		return 20
