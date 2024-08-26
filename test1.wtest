@@ -1,0 +1,12 @@
+import example.*
+
+describe "pepita" {
+  test "Pepita come alpiste y aumenta su energia" {
+
+    pepita.comer(alpiste)
+    
+    assert.equals(120, pepita.energia())
+  }
+
+
+}
